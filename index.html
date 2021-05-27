@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div id="div1">
+        <h1>TO DO LIST</h1>
+        <form autocomplete="off">
+            <input type="text" name="" id="firstInput">
+            <button id="addBtn" type="submit" class="bouton">Ajouter</button>
+        </form>
+    </div>
+
+    <div id="div2">
+        <div class="miniDiv1">
+            <button id="tousBtn" class="bouton">Tous</button>
+            <button id="encoursBtn" class="bouton">En cours</button>
+            <button id="finiBtn" class="bouton">Fini</button>
+        </div>
+
+        <div class="miniDiv2">
+            <div class="nonvalideDiv">
+                <h4 style="color: rgb(255, 0, 0);">Non Validé</h4>
+                <ol id="notdoneList">
+
+                </ol>
+            </div>
+            <div class="valideDiv">
+                <h4 style="color: rgb(8, 230, 8);">Validé</h4>
+                <ol id="doneList">
+
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <script src="./public/js/main.js"></script>
+</body>
+
+</html>
